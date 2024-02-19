@@ -1,0 +1,28 @@
+{
+    "employees": [
+      {
+        "id": "f84c",
+        "empName": "sabu",
+        "empSalary": "202000",
+        "empCompany": "tcs"
+      },
+      {
+        "id": "9584",
+        "empName": "anil",
+        "empSalary": "300000",
+        "empCompany": "honda"
+      },
+      {
+        "id": "2d1a",
+        "empName": "shree",
+        "empSalary": "30000000",
+        "empCompany": "access"
+      },
+      {
+        "id": "a5c7",
+        "empName": "mahib",
+        "empSalary": "600000",
+        "empCompany": "ibm"
+      }
+    ]
+  }

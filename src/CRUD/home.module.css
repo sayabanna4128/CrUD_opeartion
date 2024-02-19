@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav{
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#nav>a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#createuser{
+    height: 90vh;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#createuser>form{
+    height: 250px;
+    width: 300px;
+    border: 1px solid black;
+    color: white;
+    line-height: 30px;
+    box-shadow: 0px 10px 20px black;
+    border-radius: 5px;
+}
+#createuser>form>label{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-top: 50px;
+    margin-left: 40%;
+}
+#createuser>form>input{
+    height: 20px;
+    width: 250px;
+    margin-left: 10%;
+    background-color: transparent;
+    border: none;
+    border-bottom:1px solid white;
+}
+#createuser>form>button{
+    height: 30px;
+    width: 80px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-left: 37%;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    border: 0.5px solid white;
+}
+#createuser>form>button:hover{
+    box-shadow: 0px 0px 10px white;
+}
+/* Create user completed */
+#user{
+    height: 90vh;
+    width: 100%;
+    background-color: grey;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+}
+#user>#userHome{
+    height: 200px;
+    width: 200px;
+    border: 2px solid wheat;
+    line-height: 35px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#user>#userHome:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+#user>#userHome>h2{
+    font-size: 17px;
+    margin-top: 15px;
+    text-align: center;
+    color: white;   
+}
+#user>#userHome>button>a{
+    color: white;
+    text-decoration: none;
+    background-color: transparent;   
+}
+#user>#userHome>button{
+    height: 23px;
+    width: 70px;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: white;
+    background-color: transparent;
+    border: 0.5px solid white;
+    border-radius: 5px;
+}
+#user>#userHome>button:hover{
+    box-shadow: 0px 0px 10px white;
+}
